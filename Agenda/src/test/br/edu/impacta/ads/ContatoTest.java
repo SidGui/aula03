@@ -35,6 +35,7 @@ public class ContatoTest {
 	{
 		listaContato.add(contato);
 		listaContato.add(contato);
+		listaContato.add(contato);
 		cdao.gravar(listaContato);
 		assertTrue("Seu dado foi gravado",cdao.buscar(contato.getNome()).size() > 0);
 		
